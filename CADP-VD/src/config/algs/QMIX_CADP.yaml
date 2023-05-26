@@ -1,0 +1,34 @@
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000 # 500000 for corridor and 3s5z_vs_3s6z
+
+#runner: "parallel"
+runner: "episode"
+#batch_size_run: 8
+buffer_size: 5000
+#batch_size_run: 2
+t_max: 1050000
+breakpoint: 700000
+
+# update the target network every {} episodes
+target_update_interval: 200
+
+# use the Q_Learner to train
+mac: "n_mac"
+agent: "att_rnn" # self-attention for communication
+agent_output_type: q
+att_heads: 4
+att_embed_dim: 32
+double_q: True
+learner: "q_learner_teacher"
+mixer: "qmix"
+mixing_embed_dim: 32
+hypernet_embed: 64
+alpha: 0.5
+optimizer: 'adam'
+grad_norm_clip: 10.0
+use_onehot_loss: True
+#evaluate: True
+name: "qmix_cadp"
