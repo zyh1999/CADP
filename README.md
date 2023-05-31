@@ -61,3 +61,17 @@ cd CADP-PG/onpolicy
 # SMAC
 sh scripts/train_smac_scripts/train_smac_[map_name]_cadp.sh
 ```
+
+
+## 3. Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```
+@article{Zhou2023CADP,
+  title={Is Centralized Training with Decentralized Execution Framework Centralized Enough for MARL?},
+  author={Yihe Zhou, Shunyu Liu, Yunpeng Qing, Kaixuan Chen, Tongya Zheng, Yanhao Huang, Jie Song, Mingli Song},
+  journal={arXiv preprint arXiv:2305.17352},
+  year={2023}
+}
+```
