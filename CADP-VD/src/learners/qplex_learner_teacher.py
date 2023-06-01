@@ -8,10 +8,14 @@ from utils.th_utils import get_params_size
 import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
+
+
 def entropy(x, dim=-1):
     max_entropy = np.log(x.shape[dim])
     x = (x+1e-8) / th.sum(x+1e-8, dim, keepdim=True)
     return (-th.log(x)*x).sum(dim) / max_entropy
+
+
 class DMAQ_qattenLearner:
     def __init__(self, mac, scheme, logger, args):
         self.args = args
