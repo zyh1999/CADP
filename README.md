@@ -46,9 +46,13 @@ cd CADP-VD
 
 # SMAC
 python src/main.py --config=[alg_name]_CADP --env-config=sc2 with env_args.map_name=[map_name]
+# alg_name: VDN QMIX QPLEX
+# map_name: 5m_vs_6m corridor 3s5z_vs_3s6z
 
 # GRF
 python src/main.py --config=[alg_name]_CADP --env-config=gfootball with env_args.map_name=[map_name] optimizer='rmsprop'
+# alg_name: VDN QMIX QPLEX
+# map_name: academy_3_vs_1_with_keeper academy_counterattack_easy
 ```
 
 
@@ -60,6 +64,7 @@ cd CADP-PG/onpolicy
 
 # SMAC
 sh scripts/train_smac_scripts/train_smac_[map_name]_cadp.sh
+# map_name: 5m_vs_6m corridor 3s5z_vs_3s6z
 ```
 
 
