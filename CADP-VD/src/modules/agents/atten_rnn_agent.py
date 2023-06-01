@@ -50,6 +50,7 @@ class ATTRNNAgent(nn.Module):
         inter_v = self.fc_inter(q_v)
         q_v = self.fc_last(inter_v).view(b,a,-1)
         self.q_v = q_v
+        
         if self.use_q_v:
             return q_v.view(b, a, -1), inter.view(b, a, -1), h.view(b, a, -1)
         else:
