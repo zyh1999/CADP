@@ -68,9 +68,9 @@ sh scripts/train_smac_scripts/train_smac_[map_name]_cadp.sh
 If you find this work useful for your research, please cite our paper:
 
 ```
-@article{Zhou2023CADP,
+@article{zhou2023CADP,
   title={Is Centralized Training with Decentralized Execution Framework Centralized Enough for MARL?},
-  author={Yihe Zhou, Shunyu Liu, Yunpeng Qing, Kaixuan Chen, Tongya Zheng, Yanhao Huang, Jie Song, Mingli Song},
+  author={Zhou, Yihe and Liu, Shunyu and Qing, Yunpeng and Chen, Kaixuan and Zheng, Tongya and Huang, Yanhao and Song, Jie and Song, Mingli},
   journal={arXiv preprint arXiv:2305.17352},
   year={2023}
 }
