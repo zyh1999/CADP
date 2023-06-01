@@ -51,7 +51,7 @@ python src/main.py --config=[alg_name]_CADP --env-config=sc2 with env_args.map_n
 
 # GRF
 python src/main.py --config=[alg_name]_CADP --env-config=gfootball with env_args.map_name=[map_name] optimizer='rmsprop'
-# alg_name: VDN QMIX QPLEX
+# alg_name: QMIX
 # map_name: academy_3_vs_1_with_keeper academy_counterattack_easy
 ```
 
