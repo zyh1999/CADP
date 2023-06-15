@@ -6,7 +6,7 @@
  Official codebase for paper [Is Centralized Training with Decentralized Execution Framework Centralized Enough for Multi-Agent Learning?](https://arxiv.org/abs/2305.17352). This codebase is based on the open-source [PyMARL](https://github.com/oxwhirl/pymarl) and [On-Policy](https://github.com/marlbenchmark/on-policy) framework and please refer to that repo for more documentation.
 
 <div align="center">
-<img src="https://github.com/zyh1999/CADP/blob/main/introduction.png" width="50%">
+<img src="https://github.com/zyh1999/CADP/blob/main/introduction.png" width="100%">
 </div>
 
 ## Overview
