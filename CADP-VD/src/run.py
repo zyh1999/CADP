@@ -83,7 +83,7 @@ def run_sequential(args, logger):
     args.n_agents = env_info["n_agents"]
     args.n_actions = env_info["n_actions"]
     args.state_shape = env_info["state_shape"]
-    args.unit_dim = env_info["unit_dim"]
+    # args.unit_dim = env_info["unit_dim"]
     # Default/Base scheme
     scheme = {
         "state": {"vshape": env_info["state_shape"]},
